@@ -44,7 +44,7 @@ sequelize
   .then(() => {
     app.listen(1400, async () => {
       console.log("Connected to DB");
-      console.log("Server is running at 4400");
+      console.log("Server is running at 3000");
     });
   })
   .catch((err) => {
